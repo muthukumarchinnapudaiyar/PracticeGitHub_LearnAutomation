@@ -22,8 +22,10 @@ public class windowsHandles {
 		List<String> PageList=new ArrayList<String>(AllpageID);
 		driver.switchTo().window(PageList.get(2));
 		driver.findElement(By.xpath("//input[@placeholder='E-mail Address']")).sendKeys("mk8051550@gmail.com");
+		System.out.println("MuthuKumar C");
 		
 
 	}
 
 }
+
